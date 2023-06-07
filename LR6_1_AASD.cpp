@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
@@ -28,13 +28,13 @@ void fillArrayRandomly(int arr[], int n) {
 	}
 }
 int main() {
-	const int n = 10;
+	const int n = 5;
 	int arr[n];
-	cout << "Масив до сортування: ";
+	cout << "Array before sorting: ";
 	fillArrayRandomly(arr, n);
 	printArray(arr, n);
 	Sort(arr, n);
-	cout << "Масив після сортування: ";
+	cout << "Array after sorting: ";
 	printArray(arr, n);
 	return 0;
 }
